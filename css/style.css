@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+.container{
+    height: 70px;
+    width: 100%;
+    background-color: olivedrab;
+    
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ .plans ul{
+     display: flex;
+ }
+
+ .login-dropbox ul{
+     display: flex;
+ }
+
+ .login-dropbox{
+     margin-right: 70px;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+ 
