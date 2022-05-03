@@ -9,7 +9,7 @@
 .container{
     height: 70px;
     width: 100%;
-    background-color: olivedrab;
+    
     
 }
 
@@ -34,11 +34,25 @@ nav {
 
  ul {
      list-style-type: none;
+     padding: 5px 10px;
+     
  }
+ li {
+    padding: 5px 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
   .logo-plans {
       display: flex;
       align-items: center;  
   }
   .plans{
-      padding: 5px 10px;
+      padding: 5px 20px;
   }
+  .img-logo {
+      padding-right: 10px;
+  }
+
+
