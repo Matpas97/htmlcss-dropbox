@@ -35,4 +35,10 @@ nav {
  ul {
      list-style-type: none;
  }
- 
+  .logo-plans {
+      display: flex;
+      align-items: center;  
+  }
+  .plans{
+      padding: 5px 10px;
+  }
