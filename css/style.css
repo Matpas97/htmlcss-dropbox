@@ -54,5 +54,9 @@ a{
   .img-logo {
       padding-right: 10px;
   }
+  .btn{
+      background-color: blue;
+      color: white;
+  }
 
 
