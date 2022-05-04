@@ -7,7 +7,7 @@
 
 /* Common */
 .container{
-    height: 70px;
+    height: 100%;
     width: 100%;
     
     
@@ -22,6 +22,18 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+ul {
+    list-style-type: none;
+    padding: 5px 10px;
+    
+}
+li {
+   padding: 5px 15px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
 
  .plans ul{
      display: flex;
@@ -34,19 +46,6 @@ nav {
  .login-dropbox{
      margin-right: 70px;
  }
-
- ul {
-     list-style-type: none;
-     padding: 5px 10px;
-     
- }
- li {
-    padding: 5px 15px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
   .logo-plans {
       display: flex;
       align-items: center;  
@@ -63,5 +62,15 @@ a{
       padding: 5px 15px;
       font-size: 15px;
   }
+  .login-dropbox {
+      padding-right: 30px;
+  }
+  /* Main */
+.banner {
+    margin: 0 auto;
+    background-color: tomato;
+    height: 300px;
+    width: 40%;
+}
 
 
