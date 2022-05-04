@@ -87,20 +87,17 @@ h1 {
     font-weight: 700;
     font-size: 75px;
 }
-.a-color{
-    color:white;
+h2{
+
 }
-
-
-.start2 {
-    border: none;
-    padding: 14px 30px;
-    margin-left: 30px;
-    background-color: #007fff;  
+.btncolor{
+    background-color: #007fff;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 p {
-   padding: 35px;
+   
 }
 .banner-img{
     width: 70%;
@@ -115,4 +112,21 @@ p {
 
 .banner-more {
     display: flex;
+}
+.subscription {
+    height: 700px;
+    
+    
+}
+.main-plans {
+    margin: 0 auto;
+    width: 75%;
+    height: 700px;
+}
+/* class Utility */
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.plt {
+    margin-top: 300px;
 }
