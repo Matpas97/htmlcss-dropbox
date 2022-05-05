@@ -132,7 +132,7 @@ p {
 /* Section 2 */
 
 .subscription {
-    height: 700px;
+    height: 1050px;
     width: 100%;
     
     
@@ -159,7 +159,7 @@ p {
      justify-content: center;
      width: 30%;
      height: 750px;
-     border: 1px solid black;
+     border: 1px solid lightgray;
      
 
      
@@ -173,10 +173,10 @@ p {
      padding-top: 35px;
  }
  .users {
-     width: 270px
+     width: 100%;
      height: 5%;
      padding-top: 15px;
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid lightgray;
      text-align: center;
  }
  .card-top {
@@ -200,4 +200,63 @@ p {
  }
  .card-bottom li {
      padding: 15px;
+ }
+.enterprise {
+    height: 600px;
+}
+
+ .team {
+     margin: 0 auto;
+     width: 75%;
+     height: 200px;
+     border: 1px solid lightgray;
+
+ }
+ .team1 {text-align: center;
+
+     border-bottom: 1px solid lightgray;
+     padding: 10px;   
+ }
+ 
+ .enterprise-text p {
+     margin-top: 20px;
+     padding-left: 50px;
+ }
+ .enterprise-text h4 {
+     padding-top: 25px;
+     padding-left: 50px;
+ }
+ .enterprise-text h3 {
+     padding-left: 51px;
+     padding-top: 30px;
+ }
+ .sales-office {
+     background-color: #007fff
+     padding: 7px 15px;
+ }
+
+/* Section 3 */
+.partner {
+    margin: 0 auto;
+    width: 75%;
+    height: 300px;   
+}
+.partner-container {
+    padding-top: 150px;
+    display: flex;
+}
+.partner img {
+    width: 100%;
+}
+.partner-img {
+    height: 50%;
+}
+ .partner-text h3 {
+     font-size: 20px;
+     padding-left: 5px;
+     
+ }
+ .partner-text {
+     width: 60%;
+     padding-left: 40px;
  }
