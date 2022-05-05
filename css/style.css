@@ -158,7 +158,7 @@ p {
  .col{
      justify-content: center;
      width: 30%;
-     height: 900px;
+     height: 750px;
      border: 1px solid black;
      
 
@@ -173,7 +173,7 @@ p {
      padding-top: 35px;
  }
  .users {
-     width: 100%;
+     width: 270px
      height: 5%;
      padding-top: 15px;
      border-bottom: 1px solid black;
@@ -197,4 +197,7 @@ p {
      color: white;
      padding: 7px 15px;
      padding-left: 20px;
+ }
+ .card-bottom li {
+     padding: 15px;
  }
