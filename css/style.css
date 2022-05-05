@@ -12,6 +12,13 @@
     
     
 }
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.plt {
+    margin-top: 50px;
+    
+}
 body{
     font-family: sans-serif;
 }
@@ -88,12 +95,21 @@ h1 {
     font-size: 75px;
 }
 h2{
+    margin-top: 300px;
+    font-size: 45px;
 
+}
+h3 {
+    padding-left: 20px;
+    font-size: 20px;
 }
 .btncolor{
     background-color: #007fff;
     padding: 10px 15px;
     display: inline-block;
+}
+h4 {
+    padding-left: 20px;
 }
 
 p {
@@ -113,8 +129,11 @@ p {
 .banner-more {
     display: flex;
 }
+/* Section 2 */
+
 .subscription {
     height: 700px;
+    width: 100%;
     
     
 }
@@ -123,10 +142,59 @@ p {
     width: 75%;
     height: 700px;
 }
-/* class Utility */
-.margin-bottom {
-    margin-bottom: 20px;
+.billing1 {
+    margin-left: 30px;
 }
-.plt {
-    margin-top: 300px;
+.circle {
+    width: 10px;
+    background-color: blue;
+    height: 10px;
+    border-radius: 10%;
 }
+.circle1 {
+    width: 10px;
+    background-color: blueviolet;
+}
+ .col{
+     justify-content: center;
+     width: 30%;
+     height: 900px;
+     border: 1px solid black;
+     
+
+     
+ }
+ .columns {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+ .all-columns {
+     padding-top: 35px;
+ }
+ .users {
+     width: 100%;
+     height: 5%;
+     padding-top: 15px;
+     border-bottom: 1px solid black;
+     text-align: center;
+ }
+ .card-top {
+    padding-top: 20px;
+ }
+.card-bottom {
+    padding-top: 50px;
+}
+ .card-top p {
+     padding-top: 15px;
+     padding-left: 20px;
+ }
+ .cta2{
+     padding-top: 30px;
+ }
+ .cta {
+     background-color: #007fff;
+     color: white;
+     padding: 7px 15px;
+     padding-left: 20px;
+ }
