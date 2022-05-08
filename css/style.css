@@ -285,8 +285,8 @@ p {
 
  }
  .main-operations {
-     
-     height: 900px;
+    padding-top: 100px;
+    height: 500px;
  }
 .columns {
     display: flex;
@@ -300,8 +300,6 @@ p {
     height: 900px;
 }
  
-/* Section 4 */
-
 .img-operations img {
     width: 100%;
     height: 72%;
@@ -317,3 +315,134 @@ p {
 }
 
 /* Section 5 */
+
+.business {
+    width: 75%;
+    height: 1550px;
+    margin: 0 auto;
+}
+.text-business{
+    padding-top: 450px;
+
+}
+
+.text-business a {
+    text-decoration: underline;
+    color: #007fff;
+}
+
+.text-business h2 {
+    padding-bottom: 35px;
+}
+.customers {
+    width: 100%;
+   
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.sect {
+    display: flex;
+    background-color: #007fff;
+    border: 1px solid black;
+    height: 600px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 20%;
+    height: 10%;
+    background-color: burlywood;
+}
+
+/* Section 6 */
+
+.company {
+    background-color: #abcdef;
+    width: 100%;
+    height: 600px;
+}
+.company h2 {
+    color: darkred;
+}
+
+.company-right {
+    padding-top: 316px;
+    padding-left: 300px;
+}
+.company-info {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.go {
+    padding: 10px 60px;
+    background-color: white;
+    white-space: nowrap;
+
+}
+/* Section 7 */
+
+.frequent-questions {
+    border-bottom: 1px solid lightgray;
+}
+.frequent-questions h3 {
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.ask {
+    width: 75%;
+    margin: 0 auto;
+    height: 797px;
+}
+.questions {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 50px 0;
+}
+.question-font {
+    padding-left: 260px
+}
+
+/* Footer */
+
+.component {
+   
+    height: 600px;
+    background-color: black;
+}
+
+.pillar {
+    display: flex;
+    margin-left: 100px;
+    
+
+}
+
+.member {
+    width: 19%;
+    height: 600px;
+    padding-left: 45px;
+    color: white;
+    padding-top: 95px;
+}
+.member-one {
+    border-bottom: 1px solid white;
+    color: white;
+    padding-top: 94px;
+    height: 450px;
+}
+  
+.member h3 {
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+.member-one h3 {
+    padding-left: 15px;
+    padding-bottom: 25px;
+
+}
+
